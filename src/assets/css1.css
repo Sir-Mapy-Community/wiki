@@ -371,7 +371,7 @@ textarea.w-input, textarea.w-select { height: auto; }
   .w-tab-link { display: block; }
 }
 .w-ix-emptyfix::after { content: ""; }
-@keyframes spin { 
+@keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
@@ -383,7 +383,7 @@ body { background-color: rgb(20, 20, 21); font-family: Montserrat, sans-serif; l
 a { text-decoration: underline; }
 .body { background-color: rgb(10, 16, 32); background-image: none; background-size: auto; background-repeat: repeat; background-attachment: scroll; }
 .dot { background-color: rgb(97, 214, 149) !important; }
-.gradient { animation: 10s ease 0s infinite normal none running gradientAnim; background: linear-gradient(315deg, rgb(182, 89, 187) 0%, rgb(169, 77, 191) 37%, rgb(156, 65, 195) 56%, rgb(141, 50, 200) 100%) !important; }
+.gradient { animation: 10s ease 0s infinite normal none running gradientAnim; background: linear-gradient(to right, #803934 , #bd6956) !important; }
 .hero { display: flex; height: 1000px; padding-top: 161px; -webkit-box-pack: center; justify-content: center; -webkit-box-align: start; align-items: flex-start; background-image: none; background-position: 0px 0px; background-size: auto; background-repeat: repeat; }
 .hero-wrapper { display: flex; width: 1080px; padding-right: 20px; padding-left: 20px; -webkit-box-orient: vertical; -webkit-box-direction: reverse; flex-direction: column-reverse; -webkit-box-pack: justify; justify-content: space-between; -webkit-box-align: center; align-items: center; }
 .container-2 { display: flex; width: 1080px; height: 80px; max-width: 100%; margin-right: auto; margin-left: auto; padding-right: 20px; padding-left: 20px; -webkit-box-orient: horizontal; -webkit-box-direction: normal; flex-direction: row; justify-content: space-around; }
@@ -396,7 +396,7 @@ a { text-decoration: underline; }
 .cta-button { position: relative; top: -143px; display: block; width: 150px; height: 40px; margin-top: 26px; margin-right: auto; margin-left: auto; float: none; clear: none; align-self: center; border-radius: 20px; background-color: rgb(101, 56, 236); font-weight: 700; text-align: center; }
 .cta-button.glowing-button { position: static; left: 263px; top: -50px; display: flex; margin-top: 0px; margin-right: 0px; margin-left: 10px; padding: 0px; -webkit-box-pack: center; justify-content: center; -webkit-box-align: center; align-items: center; border-radius: 50px; background-color: rgb(47, 57, 255); background-image: linear-gradient(225deg, rgb(47, 57, 255), rgb(85, 47, 255)); transition: filter 300ms ease-in-out 0s, box-shadow 300ms ease-in-out 0s, -webkit-filter 300ms ease-in-out 0s; font-family: Montserrat, sans-serif; font-weight: 700; }
 .cta-button.glowing-button:hover { box-shadow: rgba(47, 57, 255, 0.49) 0px 5px 21px -1px; filter: brightness(135%); }
-.image-6 { width: 130px; margin-left: 0px; padding-top: 0px; }
+.image-6 { width: 80px; margin-left: 0px; padding-top: 0px; }
 .nav-link-5 { transition: all 300ms ease 0s; color: rgb(255, 255, 255); font-weight: 600; }
 .nav-link-5:hover { border-bottom: 0px none transparent; color: rgb(173, 170, 185); }
 .nav-link-5.w--current { border-bottom: 4px none rgb(101, 56, 236); color: rgb(255, 255, 255); }
