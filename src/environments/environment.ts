@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  name: 'Wiki cat',
+  name: 'Wiki Cat',
   twitter: 'https://twitter.com/wikicatbsc/',
   telegram: 'https://t.me/wikicatbsc',
   reddit: 'https://www.reddit.com/r/Wikicatcoin/',
