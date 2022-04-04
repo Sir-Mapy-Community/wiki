@@ -382,7 +382,7 @@ textarea.w-input, textarea.w-select { height: auto; }
 body { background-color: rgb(20, 20, 21); font-family: Montserrat, sans-serif; line-height: 20px; }
 a { text-decoration: underline; }
 .body { background-color: rgb(10, 16, 32); background-image: none; background-size: auto; background-repeat: repeat; background-attachment: scroll; }
-.dot { background-color: rgb(97, 214, 149) !important; }
+.dot { background-color: rgb(132 60 54) !important; }
 .gradient { animation: 10s ease 0s infinite normal none running gradientAnim; background: linear-gradient(to right, #803934 , #bd6956) !important; }
 .hero { display: flex; height: 1000px; padding-top: 161px; -webkit-box-pack: center; justify-content: center; -webkit-box-align: start; align-items: flex-start; background-image: none; background-position: 0px 0px; background-size: auto; background-repeat: repeat; }
 .hero-wrapper { display: flex; width: 1080px; padding-right: 20px; padding-left: 20px; -webkit-box-orient: vertical; -webkit-box-direction: reverse; flex-direction: column-reverse; -webkit-box-pack: justify; justify-content: space-between; -webkit-box-align: center; align-items: center; }
@@ -430,7 +430,7 @@ a { text-decoration: underline; }
 .features { display: flex; -webkit-box-pack: center; justify-content: center; }
 .section-wrapper { position: relative; z-index: 1; display: flex; width: 1080px; padding-top: 100px; padding-bottom: 100px; -webkit-box-orient: vertical; -webkit-box-direction: normal; flex-direction: column; -webkit-box-align: center; align-items: center; }
 .section-title { margin-top: 0px; margin-bottom: 60px; color: rgb(255, 255, 255); font-size: 28px; font-weight: 800; text-align: center; }
-.section-title.roadmap-title { margin-bottom: -204px; }
+.section-title.roadmap-title { margin-bottom: -150px; }
 .horizontal-row { display: grid; width: 100%; -webkit-box-pack: justify; justify-content: space-between; grid-auto-columns: 1fr; gap: 16px 30px; grid-template-columns: 1fr 1fr 1fr; grid-template-rows: auto; }
 .card {display: flex;width: 510px;padding: 30px;-webkit-box-orient: vertical;-webkit-box-direction: normal;flex-direction: column;border-radius: 15px;background-color: rgba(21, 26, 33, 0.52);}
 .card.glasscard { background-color: rgba(21, 26, 33, 0.52); }
@@ -491,7 +491,7 @@ a { text-decoration: underline; }
 .paragraph-2 { color: rgb(93, 114, 144); font-size: 21px; }
 .content-block { position: sticky; top: 0px; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; flex-direction: column; -webkit-box-pack: start; justify-content: flex-start; -webkit-box-align: center; align-items: center; }
 .label { color: rgb(98, 208, 146); font-weight: 800; letter-spacing: 2px; text-transform: uppercase; }
-.scroll-animate { position: absolute; bottom: 0px; width: 6px; height: 100%; background-color: rgb(97, 214, 149); transform-origin: 50% 0%; }
+.scroll-animate { position: absolute; bottom: 0px; width: 6px; height: 100%; background-color: rgb(186 103 84); transform-origin: 50% 0%; }
 .lottie-animation-2 { position: absolute; }
 .container { position: relative; display: flex; width: 100%; max-width: 1080px; margin-bottom: 0%; padding-bottom: 255px; -webkit-box-orient: vertical; -webkit-box-direction: normal; flex-direction: column; -webkit-box-align: center; align-items: center; }
 .steps-clone { position: relative; display: flex; margin-top: 0px; -webkit-box-orient: vertical; -webkit-box-direction: normal; flex-direction: column; -webkit-box-pack: center; justify-content: center; }
@@ -615,7 +615,7 @@ a { text-decoration: underline; }
 .steo-block.step-2:hover { background-color: rgb(21, 26, 33); }
 .steo-block.step-6:hover { background-color: rgb(21, 26, 33); }
 .img2 { position: absolute; top: -83px; display: none; }
-.div-block-134 { display: flex; width: 30px; height: 30px; max-height: 30px; max-width: 30px; min-height: 30px; min-width: 30px; margin-right: 20px; -webkit-box-pack: center; justify-content: center; -webkit-box-align: center; align-items: center; border-radius: 50%; background-color: rgb(141, 50, 200); }
+.div-block-134 { display: flex; width: 30px; height: 30px; max-height: 30px; max-width: 30px; min-height: 30px; min-width: 30px; margin-right: 20px; -webkit-box-pack: center; justify-content: center; -webkit-box-align: center; align-items: center; border-radius: 50%; background-color: rgb(186 103 84); }
 .text-block-21 { color: rgb(222, 227, 234); font-size: 12px; font-weight: 500; }
 .img5 { position: absolute; top: -129px; display: none; }
 .img4 { position: absolute; top: -100px; display: none; }
@@ -636,7 +636,7 @@ a { text-decoration: underline; }
 .coupon-field { position: relative; width: 360px; height: 55px; margin-bottom: 0px; padding: 0px; border-style: none; border-width: 2px; border-color: rgb(47, 57, 255); background-color: rgb(11, 14, 17); color: rgb(255, 255, 255); font-size: 12px; line-height: 26px; font-weight: 700; text-align: center; }
 .coupon-field::-webkit-input-placeholder { color: rgb(222, 227, 234); font-size: 12px; }
 .coupon-field::placeholder { color: rgb(222, 227, 234); font-size: 12px; }
-.copy-btn { position: relative; z-index: 5; display: flex; width: 120px; height: 55px; margin-top: 0px; margin-bottom: 0px; padding: 0px; -webkit-box-pack: center; justify-content: center; -webkit-box-align: center; align-items: center; background-color: rgb(141, 50, 200); transition: background-color 300ms ease-in-out 0s; font-size: 14px; line-height: 50px; font-weight: 700; text-align: center; }
+.copy-btn { position: relative; z-index: 5; display: flex; width: 120px; height: 55px; margin-top: 0px; margin-bottom: 0px; padding: 0px; -webkit-box-pack: center; justify-content: center; -webkit-box-align: center; align-items: center; background-color: rgb(186 103 84); transition: background-color 300ms ease-in-out 0s; font-size: 14px; line-height: 50px; font-weight: 700; text-align: center; }
 .copy-btn:hover { background-color: rgb(152, 65, 208); }
 @media screen and (max-width: 991px) {
   .hero { padding-top: 119px; -webkit-box-align: start; align-items: flex-start; }
