@@ -4,7 +4,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 audio, canvas, progress, video { display: inline-block; vertical-align: baseline; }
 audio:not([controls]) { display: none; height: 0px; }
 [hidden], template { display: none; }
-a { background-color: transparent; }
+a { color: #b46250; background-color: transparent; }
 a:active, a:hover { outline: 0px; }
 abbr[title] { border-bottom: 1px dotted; }
 b, strong { font-weight: bold; }
@@ -433,7 +433,7 @@ a { text-decoration: underline; }
 .section-title.roadmap-title { margin-bottom: -150px; }
 .horizontal-row { display: grid; width: 100%; -webkit-box-pack: justify; justify-content: space-between; grid-auto-columns: 1fr; gap: 16px 30px; grid-template-columns: 1fr 1fr 1fr; grid-template-rows: auto; }
 .card {display: flex;width: 510px;padding: 30px;-webkit-box-orient: vertical;-webkit-box-direction: normal;flex-direction: column;border-radius: 15px;background-color: rgba(21, 26, 33, 0.52);}
-.card.glasscard { background-color: rgba(21, 26, 33, 0.52); }
+.card.glasscard { background-color: rgba(21, 26, 33, 0.85); }
 .feature-title { margin-top: 0px; margin-bottom: 0px; color: rgb(255, 255, 255); font-size: 22px; font-weight: 800; }
 .card-description { margin-top: 10px; color: rgb(226, 226, 226); font-size: 14px; font-style: normal; }
 .card-top { display: flex; }
